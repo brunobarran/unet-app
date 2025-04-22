@@ -1,5 +1,6 @@
 streamlit>=1.10.0      # Versión mínima recomendada, puedes poner una más reciente
-tensorflow>=2.5.0      # O la versión específica que usaste para entrenar/guardar el modelo
+tensorflow>=2.19.0      # O la versión específica que usaste para entrenar/guardar el modelo
 numpy>=1.19.0
 Pillow>=8.0.0          # Para manipulación de imágenes PIL
 scikit-image>=0.18.0   # Para la función resize usada en el preprocesamiento
+h5py==3.13.0         # Para cargar el modelo guardado en formato HDF5
